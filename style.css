@@ -109,3 +109,36 @@ section.topo-do-site.flex{
         top: 30px;
     }
 }
+
+/*ESTILO MEIO DO SITE*/
+section.meio-do-site{
+    padding: 10px 10%;
+
+}
+section.meio-do-site{
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+}
+.meio-do-site .txt-meio-do-site h1{
+    text-align: center;
+    color: #fff;
+    font-size: 42px;
+    transition: .2s;
+    line-height: 80px;
+    margin: 100px 40px 200px;
+}
+.meio-do-site h1:hover{
+    color: #25c9e9;
+    transform: scale(1.01);
+}
+.meio-do-site .txt-meio-do-site h1 span{
+    color: #25c9e9;
+}
+
+.meio-do-site .img-meio-do-site img{
+    display: block;
+    margin: 0 auto;
+    object-fit;
+    object-position;
+}
